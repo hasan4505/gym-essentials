@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "description": "Eight tips to help you build muscle mass. And I am here to guide you very very...",
+    "img": "https://img.freepik.com/free-photo/young-fitness-man-studio_7502-5004.jpg?t=st=1650217239~exp=1650217839~hmac=940958508d72b8692c21a4b0b743d2b17141ada9e7d6dd153ac1322c16914f39&w=996",
+    "name": "Body Building",
+    "price": 1500
+  },
+  {
+    "id": 2,
+    "description": "If you build muscle, gain strength, and get ripped with Total Fitness. Available only... ",
+    "img": "https://img.freepik.com/free-photo/bodybuilder-training-arm-with-resistance-band_7502-4758.jpg?w=996",
+    "name": "Core",
+    "price": 2000
+  },
+  {
+    "id": 3,
+    "description": "Core exercise workout: 12 tips for exercising safely and effectively, if you want it...",
+    "img": "https://img.freepik.com/free-photo/shirtless-bodybuilder-doing-side-plank-exercise_7502-4749.jpg?size=626&ext=jpg&uid=R62971374&ga=GA1.2.1744425945.1650129765",
+    "name": "Fitness",
+    "price": 1800
+  }, 
+  {
+    "id": 4,
+    "description": "Provide support, accountability, education, and a personalized plan of attack, so if you...",
+    "img": "https://img.freepik.com/free-photo/handsome-personal-instructor-helping-his-female-client-training-with-dumbbells_7502-1908.jpg?w=360", 
+    "name": "Personal Training",
+    "price": 2200
+  },
+  {
+    "id": 5,
+    "description": "Crossfit is a strength and conditioning workout that is made up of functional movement...",
+    "img": "https://img.freepik.com/free-photo/young-healthy-man-athlete-doing-exercise-with-ropes-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing_155003-27879.jpg?t=st=1650217239~exp=1650217839~hmac=3dda040588be2b6c5145e9e6addc29c7860c7c37e4f91d448a65c7e59bec2d13&w=360",
+    "name": "Crossfit",
+    "price": 3000
+  }
+]

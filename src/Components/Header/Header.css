@@ -1,0 +1,9 @@
+.nav :link {
+  text-decoration: none;
+  margin-left: 200px;
+  font-size: 20px;
+  font-weight: bold;
+}
+header nav Link:hover {
+  color: red;
+}
