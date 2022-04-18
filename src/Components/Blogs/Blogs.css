@@ -1,0 +1,9 @@
+.blogs-part {
+  display: inline-block;
+  background-color: aliceblue;
+  margin: 20px 20px 10px 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+  gap: 0;
+}
