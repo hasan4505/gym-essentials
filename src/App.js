@@ -23,15 +23,14 @@ function App() {
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<SignUp></SignUp>}></Route>
-        <Route path="/checkout" element={<Checkout></Checkout>}></Route>
-        {/* <Route
+        <Route
           path="/checkout"
           element={
             <RequireAuth>
               <Checkout></Checkout>
             </RequireAuth>
           }
-        ></Route> */}
+        ></Route>
         <Route path="/myServices" element={<MyServices></MyServices>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
