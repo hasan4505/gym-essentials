@@ -53,7 +53,7 @@ const Checkout = () => {
         <p className="text-primary">
           Change payment method click the button below
         </p>
-        <div class="mb-4 form-check ps-0">
+        <div className="mb-4 form-check ps-0">
           <input
             onChange={(e) => setPayment(e.target.checked)}
             type="checkbox"
@@ -62,7 +62,7 @@ const Checkout = () => {
           />
           <label
             className="form-check-label btn btn-primary"
-            for="exampleCheck1"
+            htmlFor="exampleCheck1"
           >
             {payment ? "BKash" : "Credit Card"}
           </label>

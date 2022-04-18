@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
-import { FaTwitter } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import auth from "../../firebase/firebase.init";
 import Loading from "../Loading/Loading";
@@ -105,9 +105,9 @@ const Login = () => {
         </p>
       </button>
       <button className="btn btn-outline-primary btn-lg w-100 fs-4 d-flex align-items-center justify-content-center">
-        <FaTwitter />{" "}
+        <AiFillGithub />{" "}
         <p style={{ width: "95%" }} className="mb-1">
-          Continue with Twitter
+          Continue with Github
         </p>
       </button>
     </div>

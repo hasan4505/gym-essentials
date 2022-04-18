@@ -14,6 +14,7 @@ const Header = () => {
       <Nav className="text-center mt-5">
         <Link to="home">Home</Link>
         <Link to="checkout">Checkout</Link>
+        <Link to="blogs">Blogs</Link>
         <Link to="about">About</Link>
         {user ? (
           <button onClick={() => signOut(auth)}>Sign Out</button>
