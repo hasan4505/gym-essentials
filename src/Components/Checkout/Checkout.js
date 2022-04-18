@@ -30,42 +30,24 @@ const Checkout = () => {
             name="email"
             required
           />
-        </div>
-        {payment ? (
           <div className="mb-4">
-            <label className="form-label fs-5" htmlFor="BKash">
-              BKash Payment
-            </label>
-            <input className="form-control fs-5" type="text" name="BKash" />
-          </div>
-        ) : (
-          <div className="mb-4">
-            <label className="form-label fs-5" htmlFor="creditCard">
-              Credit Card
+            <label className="form-label fs-5" htmlFor="address">
+              Address
             </label>
             <input
               className="form-control fs-5"
               type="text"
-              name="creditCard"
+              name="address"
+              required
             />
           </div>
-        )}
-        <p className="text-primary">
-          Change payment method click the button below
-        </p>
-        <div className="mb-4 form-check ps-0">
-          <input
-            onChange={(e) => setPayment(e.target.checked)}
-            type="checkbox"
-            className="form-check-input d-none"
-            id="exampleCheck1"
-          />
-          <label
-            className="form-check-label btn btn-primary"
-            htmlFor="exampleCheck1"
-          >
-            {payment ? "BKash" : "Credit Card"}
-          </label>
+
+          <div className="mb-4">
+            <label className="form-label fs-5" htmlFor="phoneNo">
+              Phone No.
+            </label>
+            <input className="form-control fs-5" type="number" name="phoneNo" />
+          </div>
         </div>
         <input
           className="btn btn-primary w-100 btn-lg fs-4"
