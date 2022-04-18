@@ -6,29 +6,21 @@ const About = () => {
   return (
     <div className="m-5 p-5 bg-info text-center">
       <div>
-        <h2>I Am At Your Door Step</h2>
-        <p>Wanna Know About Me?</p>
+        <h4>Hello</h4>
         <p>
-          <small>Here Is My Contact No.: +880151547655444</small>
+          This is
+          <span>
+            <h1>Hassan</h1>
+          </span>
         </p>
+        <h1>My Goal: </h1>
+        <p>
+          I am highly ambitious. This course give a better way to coding. And I
+          love to coding. In the next one or two years I will try for a job in
+          google...
+        </p>
+      </div>
 
-        <p>You can mail us: </p>
-      </div>
-      <div className="form">
-        <Form>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="email" />
-          </Form.Group>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-            <Form.Label>What to say</Form.Label>
-            <Form.Control as="textarea" rows={3} />
-          </Form.Group>
-          <Button variant="primary" type="submit">
-            Submit
-          </Button>
-        </Form>
-      </div>
       <Link to="/home" variant="primary" type="submit">
         Go to homepage
       </Link>
